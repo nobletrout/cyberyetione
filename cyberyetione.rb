@@ -4,7 +4,11 @@ require 'nokogiri'
 require 'net/http'
 require 'net/https'
 require 'json'
-uri = URI('https://hooks.slack.com/services/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')
+# general
+uri = URI('https://hooks.slack.com/services/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')
+
+# random
+# https://hooks.slack.com/services/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
 
 webcam_noko = Nokogiri::XML(Net::HTTP.get(URI('https://www.cannonmt.com/mountain/webcam-daily-photo')))
 
