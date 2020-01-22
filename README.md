@@ -1,4 +1,4 @@
-# cyberyetione
+# CyberYetiOne
 Slack App
 
 Eats skiers, shits snow.
