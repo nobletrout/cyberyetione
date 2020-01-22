@@ -4,7 +4,14 @@ require 'nokogiri'
 require 'net/http'
 require 'net/https'
 require 'json'
+require 'yaml'
 # general
+
+config = YAML.load_file('cyberyeti.config')
+post_uris = config[:cannoncam_uri].map do |x|
+    URI(x)
+end
+
 uri = URI('https://hooks.slack.com/services/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')
 
 # random
@@ -29,6 +36,7 @@ yeti_post = {
     ]
 }
 
+post_uris.each do |uri|
 req = Net::HTTP::Post.new(uri, 'Content-type' => 'application/json', 'User-Agent' => 'Curl')
 req.body = yeti_post.to_json
 http = Net::HTTP.new(uri.host, uri.port)
@@ -36,3 +44,4 @@ http.use_ssl = true
 res = http.request(req)
 puts res.inspect
 puts yeti_post.to_json
+end
