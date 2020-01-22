@@ -9,7 +9,7 @@ require 'json'
 require 'html2text'
 require 'yaml'
 
-config = YAML.load_file('cyberyeti.config')
+config = YAML.load_file(File.join(File.dirname(__FILE__), '/cyberyeti.config'))
 
 post_uris = config[:slack_channels].map do |x|
   URI(x)
