@@ -1,5 +1,7 @@
 # cyberyetione
-eats skiers, shits snow. only http://cannonmt.com right now
+Slack App
+Eats skiers, shits snow. Shows fridged camera from top. Also massages the overly optimistic ski report and puts it out daily.
+Only http://cannonmt.com right now. 
 
 # install
 run like this
