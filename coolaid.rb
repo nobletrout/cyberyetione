@@ -31,7 +31,7 @@ conditions = [{
   type: 'section',
   text: {
     type: 'mrkdwn',
-    text: 'Time for your daily coolaid report.'
+    text: "CANNON MOUTAIN SKI REPORT\r\nTime for your daily coolaid report."
   },
   accessory: {
     type: 'image',
