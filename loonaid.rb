@@ -21,10 +21,6 @@ report_text = mountain_report_noko.xpath('//div[@class="quarantine" and @data-mo
 report_text.lstrip!
 report_text.gsub!('<b>', '*')
 report_text.gsub!('</b>', "*\r\n")
-#report_text.gsub!('<br>', "\r\n")
-#report_text.gsub!('</br>', '')
-puts Html2Text.convert(report_text)
-#exit
 conditions = [{
   type: 'section',
   text: {
