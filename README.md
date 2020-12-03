@@ -1,5 +1,5 @@
 # CyberYetiOne
-Slack App
+Slack App for submitting ski reports to slack channels for people.
 
 Eats skiers, shits snow.
 
