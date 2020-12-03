@@ -9,7 +9,7 @@ Massages the overly optimistic ski report and puts it out daily.
 
 - `cyberyetione.rb` - pulls "top of the mountain" picture and posts to slack channel.
 - `coolaid.rb` - pulls snow report from Cannon's website and posts to a slack channel.
-- `loonaid.rb` - pulls ski report froom Loon's website and posts to slack channel
+- `loonaid.rb` - pulls ski report from Loon's website and posts to slack channel
 
 # install
 run like this
