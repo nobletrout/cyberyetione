@@ -2,6 +2,7 @@
 # frozen_string_literal: true
 
 # vim: ts=2 sts=2 et
+# Ski snow report for Loon Mountain. Schedule with cron.
 require 'nokogiri'
 require 'net/http'
 require 'net/https'
