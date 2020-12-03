@@ -7,7 +7,9 @@ Shows fridged camera from top.
 
 Massages the overly optimistic ski report and puts it out daily.
 
-Only http://cannonmt.com right now. 
+- `cyberyetione.rb` - pulls "top of the mountain" picture and posts to slack channel.
+- `coolaid.rb` - pulls snow report from cannon mountain and posts to a slack channel.
+- `loonaid.rb` - pulls ski report and posts to slack channel
 
 # install
 run like this
