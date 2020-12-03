@@ -13,14 +13,16 @@ Massages the overly optimistic ski report and puts it out daily.
 
 # install
 run like this
+
+1. `bundle install`
+2. `bundle exec [ruby] file_name.rb`
+
+OR
+
 1. `ruby ./cyberyetione.rb` or `ruby ./coolaid.rb`
 2. wait for ruby gem fails from require
 3. install gems with `gem install missing_ruby_gem`
 4. go to 1
-
-OR
-1. `bundle install`
-2. `bundle exec [ruby] file_name.rb`
 
 # reads from cyberyeti.config
 format should is YAML config for where to post what.
