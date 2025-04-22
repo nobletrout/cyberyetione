@@ -6,6 +6,6 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 # gem "rails"
 
-gem "nokogiri", "~> 1.10"
+gem "nokogiri", "~> 1.18"
 
-gem "html2text", "~> 0.3.1"
+gem "html2text", "~> 0.4.0"
